@@ -1,0 +1,37 @@
+{
+  "name": "@yangss/stylelint-config-vue",
+  "version": "0.0.0",
+  "description": "stylelint rules for vue app",
+  "main": "index.js",
+  "scripts": {
+    "release": "bumpp --tag --push --no-verify && pnpm publish"
+  },
+  "dependencies": {
+    "postcss-html": "^1.4.1",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-standard-vue": "^1.0.0"
+  },
+  "devDependencies": {
+    "bumpp": "^7.1.1"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.8.2"
+  },
+  "engines": {
+    "node": ">=14.8.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "Nicholas Yang <yss_2016@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yangss3/stylelint-config-vue.git"
+  },
+  "homepage": "https://github.com/yangss3/stylelint-config-vue#readme",
+  "license": "MIT"
+}
