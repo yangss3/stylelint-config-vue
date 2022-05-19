@@ -1,6 +1,6 @@
 {
   "name": "@yangss/stylelint-config-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "stylelint rules for vue app",
   "main": "index.js",
   "scripts": {
